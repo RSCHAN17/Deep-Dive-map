@@ -43,7 +43,7 @@ for i,row in fdf.iterrows():
         folium.Marker(
             location=[row['latitude'],row['longitude']],
             popup=popup,
-            icon=folium.Icon(color='blue',icon='glyphicon glyphicon-pushpin'),
+            icon=folium.Icon(color='blue',icon='glyphicon glyphicon-bookmark'),
             c=row['animal_name']
         ).add_to(m)
         folium.Circle(
@@ -59,7 +59,7 @@ for i,row in fdf.iterrows():
         folium.Marker(
             location=[row['latitude'],row['longitude']],
             popup=popup,
-            icon=folium.Icon(color='red',icon='glyphicon glyphicon-pushpin'),
+            icon=folium.Icon(color='red',icon='glyphicon glyphicon-star'),
             c=row['animal_name']
         ).add_to(m)        
         folium.Circle(
