@@ -27,10 +27,10 @@ if uploaded_file:
     # Getting the Base64 string
     base64_image = encode_image(image_path)
 
-    username='developer'
-    name='Harvest mouse'
+    username='TestUser1'
+    name='Grey long-eared bat'
     num=1
-    location='52.515937,-2.842187'
+    location='50.519437,-4.606438'
     image_url=f"data:image;base64,{base64_image}"
     now = pd.to_datetime(datetime.datetime.now())
     now = now.replace(microsecond=0)
