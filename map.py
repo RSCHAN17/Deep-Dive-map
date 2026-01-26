@@ -40,24 +40,35 @@ for i,row in fdf.iterrows():
             c=row['animal_name']
         ).add_to(m)
     elif row['rarity'] == 'Rare':
+        folium.Marker(
+            location=[row['latitude'],row['longitude']],
+            popup=popup,
+            icon=folium.Icon(color='blue',icon='glyphicon glyphicon-pushpin'),
+            c=row['animal_name']
+        ).add_to(m)
         folium.Circle(
             location=[row['latitude'],row['longitude']],
-            radius=100,
+            radius=250,
             stroke=False,
             fill=True,
             fill_opacity=0.6,
-            opacity=1,
-            popup=popup
+            opacity=1
         ).add_to(m)
 
     else:
+        folium.Marker(
+            location=[row['latitude'],row['longitude']],
+            popup=popup,
+            icon=folium.Icon(color='red',icon='glyphicon glyphicon-pushpin'),
+            c=row['animal_name']
+        ).add_to(m)        
         folium.Circle(
             location=[row['latitude'],row['longitude']],
-            radius=100,
+            color='red',
+            radius=500,
             stroke=False,
             fill=True,
             fill_opacity=0.6,
-            opacity=1,
-            popup=popup
+            opacity=1
         ).add_to(m)
 st_data = st_folium(m, width=700,returned_objects=[])
