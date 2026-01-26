@@ -24,7 +24,7 @@ fdf['rarity']=fdf['capture_points'].apply(lambda x:"Common" if x < 20 else "Rare
 #st.write(fdf)
 
 m = folium.Map(location=[54.546687,-3.881687],
-               zoom_start=5.5, control_scale=True)
+               zoom_start=3, control_scale=True)
 
 
 for i,row in fdf.iterrows():
