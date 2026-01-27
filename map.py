@@ -22,6 +22,8 @@ fdf=pd.merge(df,adf,on='animal_name',how='left')
 fdf['rarity']=fdf['capture_points'].apply(lambda x:"Common" if x < 20 else "Rare" if x < 40 else "Exceptional")
 
 #st.write(fdf)
+#h: 328.32 x 420
+# Chrome, popups not allowed
 
 m = folium.Map(location=[54.546687,-3.881687],
                zoom_start=3, control_scale=True)
