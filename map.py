@@ -30,7 +30,7 @@ m = folium.Map(location=[54.546687,-3.881687],
 
 
 for i,row in fdf.iterrows():
-    lines = ["Spottings:", f"Animal: {str(row['animal_name'])}",f"Rarity: {row['rarity']}",f"Count: {str(row['animal_count'])}", f"When: {row['date_time']}" ,f"Username: {str(row['username'])}",f"<img src='{str(row['image_url'])}' style='max-height:150px;'>" ]
+    lines = ["Spottings:", f"Animal: {str(row['animal_name'])}",f"Rarity: {row['rarity']}",f"Count: {str(row['animal_count'])}", f"When: {row['date_time']}" ,f"Username: {str(row['username'])}",f"<img src='{str(row['image_url'])}' style='max-height:100px;'>" ]
     html_content = "<br>".join(lines)
     iframe = folium.IFrame(html=html_content)
     popup = folium.Popup(iframe, min_width=300, max_width=300)
