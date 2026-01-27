@@ -1,289 +1,289 @@
-﻿name,species,zoo_id,capture_points,pack_bonus_mult
-Sika deer,Cervus nippon,1,15,1.35
-Chinese water deer,Hydropotes inermis,2,18,2
-Beaver,Castor fiber,3,35,2
-Rabbit,Oryctolagus cuniculus,4,1,1.1
-Mountain hare,Lepus timidus,5,20,2
-Brown hare,Lepus europaeus,6,8,2
-Field vole,Microtus agrestis,7,6,2
-Bank vole,Myodes glareolus,8,6,2
-Water vole,Arvicola amphibius,9,35,2
-Brown rat,Rattus norvegicus,10,2,1.1
-Wood mouse,Apodemus sylvaticus,11,3,2
-House mouse,Mus musculus,12,3,1.1
-Harvest mouse,Micromys minutus,13,30,2
-Hazel dormouse,Muscardinus avellanarius,14,40,2
-Red squirrel,Sciurus vulgaris,15,30,2
-Grey squirrel,Sciurus carolinensis,16,2,2
-Fallow deer,Dama dama,17,10,1.1
-Red deer,Cervus elaphus,18,12,1.1
-Muntjac deer,Muntiacus reevesi,19,8,2
-Roe deer,Capreolus capreolus,20,10,1.35
-Polecat,Mustela putorius,21,25,2
-Pine marten,Martes martes,22,42,2
-Wildcat,Felis silvestris,23,49,2
-Weasel,Mustela nivalis,24,15,2
-Stoat,Mustela erminea,25,15,2
-American mink,Neovison vison,26,15,2
-European otter,Lutra lutra,27,38,2
-European badger,Meles meles,28,18,1.35
-Red fox,Vulpes vulpes,29,5,2
-Alcathoe bat,Myotis alcathoe,30,50,1.35
-Whiskered bat,Myotis mystacinus,31,35,1.35
-Serotine,Eptesicus serotinus,32,25,1.35
-Natterer's bat,Myotis nattereri,33,30,1.35
-Leisler's bat,Nyctalus leisleri,34,35,1.35
-Grey long-eared bat,Plecotus austriacus,35,45,1.35
-Daubenton's bat,Myotis daubentonii,36,20,1.35
-Brandt's bat,Myotis brandtii,37,35,1.35
-Lesser horseshoe bat,Rhinolophus hipposideros,38,38,1.35
-Greater horseshoe bat,Rhinolophus ferrumequinum,39,40,1.35
-Bechstein's bat,Myotis bechsteinii,40,48,1.35
-Barbastelle bat,Barbastella barbastellus,41,45,1.35
-Brown long-eared bat,Plecotus auritus,42,20,1.35
-Noctule,Nyctalus noctula,43,20,1.35
-Common pipistrelle,Pipistrellus pipistrellus,44,5,1.35
-Mole,Talpa europaea,45,15,2
-Water shrew,Neomys fodiens,46,25,2
-Pygmy shrew,Sorex minutus,47,8,2
-Common shrew,Sorex araneus,48,6,2
-European hedgehog,Erinaceus europaeus,49,15,2
-Sand lizard,Lacerta agilis,50,40,2
-Smooth snake,Coronella austriaca,51,45,2
-Adder,Vipera berus,52,28,2
-Grass snake,Natrix helvetica,53,15,2
-Slow worm,Anguis fragilis,54,15,2
-Common lizard,Zootoca vivipara,55,12,2
-Marsh frog,Pelophylax ridibundus,56,15,1.35
-Common frog,Rana temporaria,57,3,1.35
-Natterjack toad,Epidalea calamita,58,42,1.35
-Common toad,Bufo bufo,59,8,1.35
-Palmate newt,Lissotriton helveticus,60,12,2
-Smooth newt,Lissotriton vulgaris,61,8,2
-Great crested newt,Triturus cristatus,62,25,2
-Red-necked grebe,Podiceps grisegena,63,35,1.35
-Great northern diver,Gavia immer,64,35,2
-Little grebe,Tachybaptus ruficollis,65,15,2
-Great crested grebe,Podiceps cristatus,66,10,2
-Black-necked grebe,Podiceps nigricollis,67,40,1.35
-Slavonian grebe,Podiceps auritus,68,40,1.35
-Black-throated diver,Gavia arctica,69,42,2
-Red-throated diver,Gavia stellata,70,30,2
-Mediterranean gull,Ichthyaetus melanocephalus,71,20,1.1
-Sooty shearwater,Ardenna grisea,72,35,1.1
-Storm Petrel,Hydrobates pelagicus,73,38,1.1
-Roseate tern,Sterna dougallii,74,45,1.1
-Arctic tern,Sterna paradisaea,75,25,1.1
-Common tern,Sterna hirundo,76,15,1.1
-Sandwich tern,Thalasseus sandvicensis,77,18,1.1
-Little tern,Sternula albifrons,78,30,1.1
-Kittiwake,Rissa tridactyla,79,20,1.1
-Great black-backed gull,Larus marinus,80,15,2
-Lesser black-backed gull,Larus fuscus,81,10,1.1
-Herring gull,Larus argentatus,82,5,1.1
-Common gull,Larus canus,83,10,1.1
-Black-headed gull,Chroicocephalus ridibundus,84,3,1.1
-Arctic skua,Stercorarius parasiticus,85,32,2
-Great skua,Stercorarius skua,86,32,2
-Razorbill,Alca torda,87,22,1.1
-Guillemot,Uria aalge,88,20,1.1
-Black guillemot,Cepphus grylle,89,30,2
-Puffin,Fratercula arctica,90,25,1.1
-Shag,Gulosus aristotelis,91,20,1.35
-Cormorant,Phalacrocorax carbo,92,8,1.35
-Northern gannet,Morus bassanus,93,20,1.1
-Manx shearwater,Puffinus puffinus,94,25,1.1
-Fulmar,Fulmarus glacialis,95,15,1.35
-Red-crested pochard,Netta rufina,96,30,1.35
-Long-tailed duck,Clangula hyemalis,97,35,1.35
-Egyptian goose,Alopochen aegyptiaca,98,12,1.35
-Smew,Mergellus albellus,99,40,2
-Garganey,Spatula querquedula,100,38,2
-Eider,Somateria mollissima,101,20,1.1
-Common scoter,Melanitta nigra,102,25,1.1
-Red-breasted merganser,Mergus serrator,103,22,1.35
-Goosander,Mergus merganser,104,20,1.35
-Goldeneye,Bucephala clangula,105,25,1.35
-Tufted duck,Aythya fuligula,106,8,1.1
-Pochard,Aythya ferina,107,25,1.1
-Teal,Anas crecca,108,10,1.1
-Wigeon,Mareca penelope,109,12,1.1
-Shoveler,Spatula clypeata,110,15,1.35
-Pintail,Anas acuta,111,25,1.35
-Gadwall,Mareca strepera,112,15,1.35
-Mallard,Anas platyrhynchos,113,1,1.35
-Mandarin duck,Aix galericulata,114,15,1.35
-Shelduck,Tadorna tadorna,115,12,1.35
-Brent goose,Branta bernicla,116,18,1.1
-Barnacle goose,Branta leucopsis,117,20,1.1
-Canada goose,Branta canadensis,118,3,1.1
-Pink-footed goose,Anser brachyrhynchus,119,18,1.1
-White-fronted goose,Anser albifrons,120,30,1.1
-Greylag goose,Anser anser,121,5,1.1
-Whooper swan,Cygnus cygnus,122,25,1.35
-Bewick's swan,Cygnus columbianus,123,35,1.35
-Mute swan,Cygnus olor,124,2,1.35
-Glossy ibis,Plegadis falcinellus,125,40,1.35
-Cattle egret,Bubulcus ibis,126,30,1.35
-Common crane,Grus grus,127,38,1.35
-Great white egret,Ardea alba,128,28,2
-European spoonbill,Platalea leucorodia,129,32,1.35
-Little egret,Egretta garzetta,130,10,1.35
-Grey heron,Ardea cinerea,131,5,2
-Bittern,Botaurus stellaris,132,45,2
-Honey buzzard,Pernis apivorus,133,45,2
-Goshawk,Accipiter gentilis,134,40,2
-Barn owl,Tyto alba,135,30,2
-Little owl,Athene noctua,136,25,2
-Long-eared owl,Asio otus,137,35,1.35
-Short-eared owl,Asio flammeus,138,30,2
-Tawny owl,Strix aluco,139,20,2
-Merlin,Falco columbarius,140,35,2
-Peregrine falcon,Falco peregrinus,141,25,2
-Hobby,Falco subbuteo,142,28,2
-Kestrel,Falco tinnunculus,143,12,2
-Sparrowhawk,Accipiter nisus,144,15,2
-Buzzard,Buteo buteo,145,8,2
-Hen harrier,Circus cyaneus,146,40,2
-Marsh harrier,Circus aeruginosus,147,30,2
-Osprey,Pandion haliaetus,148,38,2
-Red kite,Milvus milvus,149,15,1.35
-Golden eagle,Aquila chrysaetos,150,48,2
-White-tailed eagle,Haliaeetus albicilla,151,47,2
-Quail,Coturnix coturnix,152,35,2
-Capercaillie,Tetrao urogallus,153,50,2
-Ptarmigan,Lagopus muta,154,40,1.35
-Pheasant,Phasianus colchicus,155,2,2
-Grey partridge,Perdix perdix,156,25,1.35
-Red-legged partridge,Alectoris rufa,157,10,1.35
-Black grouse,Lyrurus tetrix,158,40,1.35
-Red grouse,Lagopus lagopus scotica,159,15,2
-Little stint,Calidris minuta,160,30,1.35
-Stone curlew,Burhinus oedicnemus,161,42,2
-Black-winged stilt,Himantopus himantopus,162,45,1.35
-Jack snipe,Lymnocryptes minimus,163,35,2
-Purple sandpiper,Calidris maritima,164,35,1.35
-Corncrake,Crex crex,165,48,2
-Red-neck phalarope,Phalaropus lobatus,166,45,2
-Snipe,Gallinago gallinago,167,18,2
-Woodcock,Scolopax rusticola,168,25,2
-Whimbrel,Numenius phaeopus,169,25,1.35
-Curlew,Numenius arquata,170,20,1.1
-Bar-tailed godwit,Limosa lapponica,171,25,1.1
-Black-tailed godwit,Limosa limosa,172,25,1.1
-Greenshank,Tringa nebularia,173,25,2
-Redshank,Tringa totanus,174,15,1.1
-Ruff,Calidris pugnax,175,30,1.35
-Common sandpiper,Actitis hypoleucos,176,20,2
-Green Sandpiper,Tringa ochropus,177,25,2
-Dunlin,Calidris alpina,178,18,1.1
-Sanderling,Calidris alba,179,20,1.1
-Knot,Calidris canutus,180,20,1.1
-Turnstone,Arenaria interpres,181,18,1.35
-Grey plover,Pluvialis squatarola,182,20,1.35
-Golden plover,Pluvialis apricaria,183,18,1.1
-Lapwing,Vanellus vanellus,184,12,1.1
-Ringed plover,Charadrius hiaticula,185,15,1.35
-Little ringed plover,Charadrius dubius,186,25,2
-Avocet,Recurvirostra avosetta,187,28,1.35
-Oystercatcher,Haematopus ostralegus,188,10,1.1
-Coot,Fulica atra,189,5,1.35
-Moorhen,Gallinula chloropus,190,5,2
-Water rail,Rallus aquaticus,191,28,2
-Collared dove,Streptopelia decaocto,192,5,1.35
-Turtle dove,Streptopelia turtur,193,45,2
-Stock dove,Columba oenas,194,12,1.35
-Woodpigeon,Columba palumbus,195,1,1.1
-Rock dove,Columba livia,196,5,1.1
-Wryneck,Jynx torquilla,197,45,2
-Waxwing,Bombycilla garrulus,198,35,1.1
-Kingfisher,Alcedo atthis,199,25,2
-Cuckoo,Cuculus canorus,200,30,2
-Lesser spotted woodpecker,Dryobates minor,201,44,2
-Green woodpecker,Picus viridis,202,20,2
-Great spotted woodpecker,Dendrocopos major,203,12,2
-Nightjar,Caprimulgus europaeus,204,42,2
-Swallow,Hirundo rustica,205,8,1.1
-House martin,Delichon urbicum,206,10,1.1
-Sand martin,Riparia riparia,207,15,1.1
-Swift,Apus apus,208,15,1.1
-Ring-necked parakeet,Psittacula krameri,209,10,1.1
-Tree pipit,Anthus trivialis,210,25,2
-Shore lark,Eremophila alpestris,211,40,1.35
-Tree sparrow,Passer montanus,212,20,1.35
-House sparrow,Passer domesticus,213,3,1.1
-Dunnock,Prunella modularis,214,4,2
-Grey wagtail,Motacilla cinerea,215,15,2
-Yellow wagtail,Motacilla flava,216,25,1.35
-Pied wagtail,Motacilla alba yarrellii,217,8,1.35
-Meadow pipit,Anthus pratensis,218,8,1.35
-Rock pipit,Anthus petrosus,219,18,2
-Woodlark,Lullula arborea,220,38,1.35
-Skylark,Alauda arvensis,221,10,1.35
-Black redstart,Phoenicurus ochruros,222,35,2
-Ring ouzel,Turdus torquatus,223,35,2
-Treecreeper,Certhia familiaris,224,18,2
-Nuthatch,Sitta europaea,225,12,2
-Wren,Troglodytes troglodytes,226,2,2
-Dipper,Cinclus cinclus,227,22,2
-Starling,Sturnus vulgaris,228,5,1.1
-Spotted flycatcher,Muscicapa striata,229,30,2
-Pied flycatcher,Ficedula hypoleuca,230,30,2
-Wheatear,Oenanthe oenanthe,231,20,2
-Whinchat,Saxicola rubetra,232,25,2
-Stonechat,Saxicola rubicola,233,15,2
-Redstart,Phoenicurus phoenicurus,234,25,2
-Nightingale,Luscinia megarhynchos,235,35,2
-Robin,Erithacus rubecula,236,1,2
-Blackbird,Turdus merula,237,1,2
-Fieldfare,Turdus pilaris,238,15,1.1
-Redwing,Turdus iliacus,239,15,1.1
-Mistle thrush,Turdus viscivorus,240,12,2
-Song thrush,Turdus philomelos,241,8,2
-Yellow-browed warbler,Phylloscopus inornatus,242,40,2
-Grasshopper warbler,Locustella naevia,243,35,2
-Firecrest,Regulus ignicapilla,244,30,2
-Dartford warbler,Curruca undata,245,35,2
-Chiffchaff,Phylloscopus collybita,246,8,2
-Willow warbler,Phylloscopus trochilus,247,10,2
-Wood warbler,Phylloscopus sibilatrix,248,30,2
-Cetti's warbler,Cettia cetti,249,20,2
-Reed warbler,Acrocephalus scirpaceus,250,15,1.35
-Sedge warbler,Acrocephalus schoenobaenus,251,15,2
-Lesser whitethroat,Curruca curruca,252,20,2
-Whitethroat,Curruca communis,253,12,2
-Garden warbler,Sylvia borin,254,20,2
-Blackcap,Sylvia atricapilla,255,10,2
-Goldcrest,Regulus regulus,256,12,1.35
-Marsh tit,Poecile palustris,257,25,1.35
-Willow tit,Poecile montanus,258,45,1.35
-Bearded tit,Panurus biarmicus,259,35,1.1
-Long-tailed tit,Aegithalos caudatus,260,8,1.1
-Coal tit,Periparus ater,261,10,1.35
-Blue tit,Cyanistes caeruleus,262,2,1.35
-Great tit,Parus major,263,3,1.35
-Great grey shrike,Lanius excubitor,264,45,2
-Raven,Corvus corax,265,20,1.35
-Hooded crow,Corvus cornix,266,20,1.35
-Carrion crow,Corvus corone,267,3,1.35
-Rook,Corvus frugilegus,268,5,1.1
-Jackdaw,Corvus monedula,269,4,1.1
-Chough,Pyrrhocorax pyrrhocorax,270,35,1.35
-Jay,Garrulus glandarius,271,10,2
-Magpie,Pica pica,272,3,1.35
-Common rosefinch,Carpodacus erythrinus,273,45,1.35
-Twite,Linaria flavirostris,274,35,1.35
-Brambling,Fringilla montifringilla,275,20,1.1
-Hawfinch,Coccothraustes coccothraustes,276,42,1.35
-Snow bunting,Plectrophenax nivalis,277,30,1.35
-Corn bunting,Emberiza calandra,278,25,1.35
-Yellowhammer,Emberiza citrinella,279,15,1.35
-Reed bunting,Emberiza schoeniclus,280,15,1.35
-Common crossbill,Loxia curvirostra,281,25,1.1
-Bullfinch,Pyrrhula pyrrhula,282,18,1.35
-Siskin,Spinus spinus,283,15,1.1
-Goldfinch,Carduelis carduelis,284,8,1.1
-Greenfinch,Chloris chloris,285,10,1.35
-Lesser redpoll,Acanthis cabaret,286,20,1.1
-Linnet,Linaria cannabina,287,12,1.1
-Chaffinch,Fringilla coelebs,288,5,1.1
+﻿name,species,zoo_id,capture_points,pack_bonus_mult,type
+Sika deer,Cervus nippon,1,15,1.35,Mammal
+Chinese water deer,Hydropotes inermis,2,18,2,Mammal
+Beaver,Castor fiber,3,35,2,Mammal
+Rabbit,Oryctolagus cuniculus,4,1,1.1,Mammal
+Mountain hare,Lepus timidus,5,20,2,Mammal
+Brown hare,Lepus europaeus,6,8,2,Mammal
+Field vole,Microtus agrestis,7,6,2,Mammal
+Bank vole,Myodes glareolus,8,6,2,Mammal
+Water vole,Arvicola amphibius,9,35,2,Mammal
+Brown rat,Rattus norvegicus,10,2,1.1,Mammal
+Wood mouse,Apodemus sylvaticus,11,3,2,Mammal
+House mouse,Mus musculus,12,3,1.1,Mammal
+Harvest mouse,Micromys minutus,13,30,2,Mammal
+Hazel dormouse,Muscardinus avellanarius,14,40,2,Mammal
+Red squirrel,Sciurus vulgaris,15,30,2,Mammal
+Grey squirrel,Sciurus carolinensis,16,2,2,Mammal
+Fallow deer,Dama dama,17,10,1.1,Mammal
+Red deer,Cervus elaphus,18,12,1.1,Mammal
+Muntjac deer,Muntiacus reevesi,19,8,2,Mammal
+Roe deer,Capreolus capreolus,20,10,1.35,Mammal
+Polecat,Mustela putorius,21,25,2,Mammal
+Pine marten,Martes martes,22,42,2,Mammal
+Wildcat,Felis silvestris,23,49,2,Mammal
+Weasel,Mustela nivalis,24,15,2,Mammal
+Stoat,Mustela erminea,25,15,2,Mammal
+American mink,Neovison vison,26,15,2,Mammal
+European otter,Lutra lutra,27,38,2,Mammal
+European badger,Meles meles,28,18,1.35,Mammal
+Red fox,Vulpes vulpes,29,5,2,Mammal
+Alcathoe bat,Myotis alcathoe,30,50,1.35,Mammal
+Whiskered bat,Myotis mystacinus,31,35,1.35,Mammal
+Serotine,Eptesicus serotinus,32,25,1.35,Mammal
+Natterer's bat,Myotis nattereri,33,30,1.35,Mammal
+Leisler's bat,Nyctalus leisleri,34,35,1.35,Mammal
+Grey long-eared bat,Plecotus austriacus,35,45,1.35,Mammal
+Daubenton's bat,Myotis daubentonii,36,20,1.35,Mammal
+Brandt's bat,Myotis brandtii,37,35,1.35,Mammal
+Lesser horseshoe bat,Rhinolophus hipposideros,38,38,1.35,Mammal
+Greater horseshoe bat,Rhinolophus ferrumequinum,39,40,1.35,Mammal
+Bechstein's bat,Myotis bechsteinii,40,48,1.35,Mammal
+Barbastelle bat,Barbastella barbastellus,41,45,1.35,Mammal
+Brown long-eared bat,Plecotus auritus,42,20,1.35,Mammal
+Noctule,Nyctalus noctula,43,20,1.35,Mammal
+Common pipistrelle,Pipistrellus pipistrellus,44,5,1.35,Mammal
+Mole,Talpa europaea,45,15,2,Mammal
+Water shrew,Neomys fodiens,46,25,2,Mammal
+Pygmy shrew,Sorex minutus,47,8,2,Mammal
+Common shrew,Sorex araneus,48,6,2,Mammal
+European hedgehog,Erinaceus europaeus,49,15,2,Mammal
+Sand lizard,Lacerta agilis,50,40,2,Reptile
+Smooth snake,Coronella austriaca,51,45,2,Reptile
+Adder,Vipera berus,52,28,2,Reptile
+Grass snake,Natrix helvetica,53,15,2,Reptile
+Slow worm,Anguis fragilis,54,15,2,Reptile
+Common lizard,Zootoca vivipara,55,12,2,Reptile
+Marsh frog,Pelophylax ridibundus,56,15,1.35,Amphibians
+Common frog,Rana temporaria,57,3,1.35,Amphibians
+Natterjack toad,Epidalea calamita,58,42,1.35,Amphibians
+Common toad,Bufo bufo,59,8,1.35,Amphibians
+Palmate newt,Lissotriton helveticus,60,12,2,Amphibians
+Smooth newt,Lissotriton vulgaris,61,8,2,Amphibians
+Great crested newt,Triturus cristatus,62,25,2,Amphibians
+Red-necked grebe,Podiceps grisegena,63,35,1.35,Bird
+Great northern diver,Gavia immer,64,35,2,Bird
+Little grebe,Tachybaptus ruficollis,65,15,2,Bird
+Great crested grebe,Podiceps cristatus,66,10,2,Bird
+Black-necked grebe,Podiceps nigricollis,67,40,1.35,Bird
+Slavonian grebe,Podiceps auritus,68,40,1.35,Bird
+Black-throated diver,Gavia arctica,69,42,2,Bird
+Red-throated diver,Gavia stellata,70,30,2,Bird
+Mediterranean gull,Ichthyaetus melanocephalus,71,20,1.1,Bird
+Sooty shearwater,Ardenna grisea,72,35,1.1,Bird
+Storm Petrel,Hydrobates pelagicus,73,38,1.1,Bird
+Roseate tern,Sterna dougallii,74,45,1.1,Bird
+Arctic tern,Sterna paradisaea,75,25,1.1,Bird
+Common tern,Sterna hirundo,76,15,1.1,Bird
+Sandwich tern,Thalasseus sandvicensis,77,18,1.1,Bird
+Little tern,Sternula albifrons,78,30,1.1,Bird
+Kittiwake,Rissa tridactyla,79,20,1.1,Bird
+Great black-backed gull,Larus marinus,80,15,2,Bird
+Lesser black-backed gull,Larus fuscus,81,10,1.1,Bird
+Herring gull,Larus argentatus,82,5,1.1,Bird
+Common gull,Larus canus,83,10,1.1,Bird
+Black-headed gull,Chroicocephalus ridibundus,84,3,1.1,Bird
+Arctic skua,Stercorarius parasiticus,85,32,2,Bird
+Great skua,Stercorarius skua,86,32,2,Bird
+Razorbill,Alca torda,87,22,1.1,Bird
+Guillemot,Uria aalge,88,20,1.1,Bird
+Black guillemot,Cepphus grylle,89,30,2,Bird
+Puffin,Fratercula arctica,90,25,1.1,Bird
+Shag,Gulosus aristotelis,91,20,1.35,Bird
+Cormorant,Phalacrocorax carbo,92,8,1.35,Bird
+Northern gannet,Morus bassanus,93,20,1.1,Bird
+Manx shearwater,Puffinus puffinus,94,25,1.1,Bird
+Fulmar,Fulmarus glacialis,95,15,1.35,Bird
+Red-crested pochard,Netta rufina,96,30,1.35,Bird
+Long-tailed duck,Clangula hyemalis,97,35,1.35,Bird
+Egyptian goose,Alopochen aegyptiaca,98,12,1.35,Bird
+Smew,Mergellus albellus,99,40,2,Bird
+Garganey,Spatula querquedula,100,38,2,Bird
+Eider,Somateria mollissima,101,20,1.1,Bird
+Common scoter,Melanitta nigra,102,25,1.1,Bird
+Red-breasted merganser,Mergus serrator,103,22,1.35,Bird
+Goosander,Mergus merganser,104,20,1.35,Bird
+Goldeneye,Bucephala clangula,105,25,1.35,Bird
+Tufted duck,Aythya fuligula,106,8,1.1,Bird
+Pochard,Aythya ferina,107,25,1.1,Bird
+Teal,Anas crecca,108,10,1.1,Bird
+Wigeon,Mareca penelope,109,12,1.1,Bird
+Shoveler,Spatula clypeata,110,15,1.35,Bird
+Pintail,Anas acuta,111,25,1.35,Bird
+Gadwall,Mareca strepera,112,15,1.35,Bird
+Mallard,Anas platyrhynchos,113,1,1.35,Bird
+Mandarin duck,Aix galericulata,114,15,1.35,Bird
+Shelduck,Tadorna tadorna,115,12,1.35,Bird
+Brent goose,Branta bernicla,116,18,1.1,Bird
+Barnacle goose,Branta leucopsis,117,20,1.1,Bird
+Canada goose,Branta canadensis,118,3,1.1,Bird
+Pink-footed goose,Anser brachyrhynchus,119,18,1.1,Bird
+White-fronted goose,Anser albifrons,120,30,1.1,Bird
+Greylag goose,Anser anser,121,5,1.1,Bird
+Whooper swan,Cygnus cygnus,122,25,1.35,Bird
+Bewick's swan,Cygnus columbianus,123,35,1.35,Bird
+Mute swan,Cygnus olor,124,2,1.35,Bird
+Glossy ibis,Plegadis falcinellus,125,40,1.35,Bird
+Cattle egret,Bubulcus ibis,126,30,1.35,Bird
+Common crane,Grus grus,127,38,1.35,Bird
+Great white egret,Ardea alba,128,28,2,Bird
+European spoonbill,Platalea leucorodia,129,32,1.35,Bird
+Little egret,Egretta garzetta,130,10,1.35,Bird
+Grey heron,Ardea cinerea,131,5,2,Bird
+Bittern,Botaurus stellaris,132,45,2,Bird
+Honey buzzard,Pernis apivorus,133,45,2,Bird
+Goshawk,Accipiter gentilis,134,40,2,Bird
+Barn owl,Tyto alba,135,30,2,Bird
+Little owl,Athene noctua,136,25,2,Bird
+Long-eared owl,Asio otus,137,35,1.35,Bird
+Short-eared owl,Asio flammeus,138,30,2,Bird
+Tawny owl,Strix aluco,139,20,2,Bird
+Merlin,Falco columbarius,140,35,2,Bird
+Peregrine falcon,Falco peregrinus,141,25,2,Bird
+Hobby,Falco subbuteo,142,28,2,Bird
+Kestrel,Falco tinnunculus,143,12,2,Bird
+Sparrowhawk,Accipiter nisus,144,15,2,Bird
+Buzzard,Buteo buteo,145,8,2,Bird
+Hen harrier,Circus cyaneus,146,40,2,Bird
+Marsh harrier,Circus aeruginosus,147,30,2,Bird
+Osprey,Pandion haliaetus,148,38,2,Bird
+Red kite,Milvus milvus,149,15,1.35,Bird
+Golden eagle,Aquila chrysaetos,150,48,2,Bird
+White-tailed eagle,Haliaeetus albicilla,151,47,2,Bird
+Quail,Coturnix coturnix,152,35,2,Bird
+Capercaillie,Tetrao urogallus,153,50,2,Bird
+Ptarmigan,Lagopus muta,154,40,1.35,Bird
+Pheasant,Phasianus colchicus,155,2,2,Bird
+Grey partridge,Perdix perdix,156,25,1.35,Bird
+Red-legged partridge,Alectoris rufa,157,10,1.35,Bird
+Black grouse,Lyrurus tetrix,158,40,1.35,Bird
+Red grouse,Lagopus lagopus scotica,159,15,2,Bird
+Little stint,Calidris minuta,160,30,1.35,Bird
+Stone curlew,Burhinus oedicnemus,161,42,2,Bird
+Black-winged stilt,Himantopus himantopus,162,45,1.35,Bird
+Jack snipe,Lymnocryptes minimus,163,35,2,Bird
+Purple sandpiper,Calidris maritima,164,35,1.35,Bird
+Corncrake,Crex crex,165,48,2,Bird
+Red-neck phalarope,Phalaropus lobatus,166,45,2,Bird
+Snipe,Gallinago gallinago,167,18,2,Bird
+Woodcock,Scolopax rusticola,168,25,2,Bird
+Whimbrel,Numenius phaeopus,169,25,1.35,Bird
+Curlew,Numenius arquata,170,20,1.1,Bird
+Bar-tailed godwit,Limosa lapponica,171,25,1.1,Bird
+Black-tailed godwit,Limosa limosa,172,25,1.1,Bird
+Greenshank,Tringa nebularia,173,25,2,Bird
+Redshank,Tringa totanus,174,15,1.1,Bird
+Ruff,Calidris pugnax,175,30,1.35,Bird
+Common sandpiper,Actitis hypoleucos,176,20,2,Bird
+Green Sandpiper,Tringa ochropus,177,25,2,Bird
+Dunlin,Calidris alpina,178,18,1.1,Bird
+Sanderling,Calidris alba,179,20,1.1,Bird
+Knot,Calidris canutus,180,20,1.1,Bird
+Turnstone,Arenaria interpres,181,18,1.35,Bird
+Grey plover,Pluvialis squatarola,182,20,1.35,Bird
+Golden plover,Pluvialis apricaria,183,18,1.1,Bird
+Lapwing,Vanellus vanellus,184,12,1.1,Bird
+Ringed plover,Charadrius hiaticula,185,15,1.35,Bird
+Little ringed plover,Charadrius dubius,186,25,2,Bird
+Avocet,Recurvirostra avosetta,187,28,1.35,Bird
+Oystercatcher,Haematopus ostralegus,188,10,1.1,Bird
+Coot,Fulica atra,189,5,1.35,Bird
+Moorhen,Gallinula chloropus,190,5,2,Bird
+Water rail,Rallus aquaticus,191,28,2,Bird
+Collared dove,Streptopelia decaocto,192,5,1.35,Bird
+Turtle dove,Streptopelia turtur,193,45,2,Bird
+Stock dove,Columba oenas,194,12,1.35,Bird
+Woodpigeon,Columba palumbus,195,1,1.1,Bird
+Rock dove,Columba livia,196,5,1.1,Bird
+Wryneck,Jynx torquilla,197,45,2,Bird
+Waxwing,Bombycilla garrulus,198,35,1.1,Bird
+Kingfisher,Alcedo atthis,199,25,2,Bird
+Cuckoo,Cuculus canorus,200,30,2,Bird
+Lesser spotted woodpecker,Dryobates minor,201,44,2,Bird
+Green woodpecker,Picus viridis,202,20,2,Bird
+Great spotted woodpecker,Dendrocopos major,203,12,2,Bird
+Nightjar,Caprimulgus europaeus,204,42,2,Bird
+Swallow,Hirundo rustica,205,8,1.1,Bird
+House martin,Delichon urbicum,206,10,1.1,Bird
+Sand martin,Riparia riparia,207,15,1.1,Bird
+Swift,Apus apus,208,15,1.1,Bird
+Ring-necked parakeet,Psittacula krameri,209,10,1.1,Bird
+Tree pipit,Anthus trivialis,210,25,2,Bird
+Shore lark,Eremophila alpestris,211,40,1.35,Bird
+Tree sparrow,Passer montanus,212,20,1.35,Bird
+House sparrow,Passer domesticus,213,3,1.1,Bird
+Dunnock,Prunella modularis,214,4,2,Bird
+Grey wagtail,Motacilla cinerea,215,15,2,Bird
+Yellow wagtail,Motacilla flava,216,25,1.35,Bird
+Pied wagtail,Motacilla alba yarrellii,217,8,1.35,Bird
+Meadow pipit,Anthus pratensis,218,8,1.35,Bird
+Rock pipit,Anthus petrosus,219,18,2,Bird
+Woodlark,Lullula arborea,220,38,1.35,Bird
+Skylark,Alauda arvensis,221,10,1.35,Bird
+Black redstart,Phoenicurus ochruros,222,35,2,Bird
+Ring ouzel,Turdus torquatus,223,35,2,Bird
+Treecreeper,Certhia familiaris,224,18,2,Bird
+Nuthatch,Sitta europaea,225,12,2,Bird
+Wren,Troglodytes troglodytes,226,2,2,Bird
+Dipper,Cinclus cinclus,227,22,2,Bird
+Starling,Sturnus vulgaris,228,5,1.1,Bird
+Spotted flycatcher,Muscicapa striata,229,30,2,Bird
+Pied flycatcher,Ficedula hypoleuca,230,30,2,Bird
+Wheatear,Oenanthe oenanthe,231,20,2,Bird
+Whinchat,Saxicola rubetra,232,25,2,Bird
+Stonechat,Saxicola rubicola,233,15,2,Bird
+Redstart,Phoenicurus phoenicurus,234,25,2,Bird
+Nightingale,Luscinia megarhynchos,235,35,2,Bird
+Robin,Erithacus rubecula,236,1,2,Bird
+Blackbird,Turdus merula,237,1,2,Bird
+Fieldfare,Turdus pilaris,238,15,1.1,Bird
+Redwing,Turdus iliacus,239,15,1.1,Bird
+Mistle thrush,Turdus viscivorus,240,12,2,Bird
+Song thrush,Turdus philomelos,241,8,2,Bird
+Yellow-browed warbler,Phylloscopus inornatus,242,40,2,Bird
+Grasshopper warbler,Locustella naevia,243,35,2,Bird
+Firecrest,Regulus ignicapilla,244,30,2,Bird
+Dartford warbler,Curruca undata,245,35,2,Bird
+Chiffchaff,Phylloscopus collybita,246,8,2,Bird
+Willow warbler,Phylloscopus trochilus,247,10,2,Bird
+Wood warbler,Phylloscopus sibilatrix,248,30,2,Bird
+Cetti's warbler,Cettia cetti,249,20,2,Bird
+Reed warbler,Acrocephalus scirpaceus,250,15,1.35,Bird
+Sedge warbler,Acrocephalus schoenobaenus,251,15,2,Bird
+Lesser whitethroat,Curruca curruca,252,20,2,Bird
+Whitethroat,Curruca communis,253,12,2,Bird
+Garden warbler,Sylvia borin,254,20,2,Bird
+Blackcap,Sylvia atricapilla,255,10,2,Bird
+Goldcrest,Regulus regulus,256,12,1.35,Bird
+Marsh tit,Poecile palustris,257,25,1.35,Bird
+Willow tit,Poecile montanus,258,45,1.35,Bird
+Bearded tit,Panurus biarmicus,259,35,1.1,Bird
+Long-tailed tit,Aegithalos caudatus,260,8,1.1,Bird
+Coal tit,Periparus ater,261,10,1.35,Bird
+Blue tit,Cyanistes caeruleus,262,2,1.35,Bird
+Great tit,Parus major,263,3,1.35,Bird
+Great grey shrike,Lanius excubitor,264,45,2,Bird
+Raven,Corvus corax,265,20,1.35,Bird
+Hooded crow,Corvus cornix,266,20,1.35,Bird
+Carrion crow,Corvus corone,267,3,1.35,Bird
+Rook,Corvus frugilegus,268,5,1.1,Bird
+Jackdaw,Corvus monedula,269,4,1.1,Bird
+Chough,Pyrrhocorax pyrrhocorax,270,35,1.35,Bird
+Jay,Garrulus glandarius,271,10,2,Bird
+Magpie,Pica pica,272,3,1.35,Bird
+Common rosefinch,Carpodacus erythrinus,273,45,1.35,Bird
+Twite,Linaria flavirostris,274,35,1.35,Bird
+Brambling,Fringilla montifringilla,275,20,1.1,Bird
+Hawfinch,Coccothraustes coccothraustes,276,42,1.35,Bird
+Snow bunting,Plectrophenax nivalis,277,30,1.35,Bird
+Corn bunting,Emberiza calandra,278,25,1.35,Bird
+Yellowhammer,Emberiza citrinella,279,15,1.35,Bird
+Reed bunting,Emberiza schoeniclus,280,15,1.35,Bird
+Common crossbill,Loxia curvirostra,281,25,1.1,Bird
+Bullfinch,Pyrrhula pyrrhula,282,18,1.35,Bird
+Siskin,Spinus spinus,283,15,1.1,Bird
+Goldfinch,Carduelis carduelis,284,8,1.1,Bird
+Greenfinch,Chloris chloris,285,10,1.35,Bird
+Lesser redpoll,Acanthis cabaret,286,20,1.1,Bird
+Linnet,Linaria cannabina,287,12,1.1,Bird
+Chaffinch,Fringilla coelebs,288,5,1.1,Bird

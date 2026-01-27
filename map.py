@@ -1,12 +1,13 @@
 import pandas as pd
 import streamlit as st
-
-from numpy.random import default_rng as rng
+import numpy as np
 import datetime
 import requests
 import json
 import folium
-from streamlit_folium import st_folium, folium_static
+from streamlit_folium import st_folium
+
+from folium.plugins import TagFilterButton
 
 req = requests.get('https://spotting-api.onrender.com/spottings')
 data = req.json()
@@ -17,16 +18,16 @@ df['longitude']=df['location'].apply(lambda r: float(r.split(',')[1]))
 df['date_time']=pd.to_datetime(df['date_time'])
 df=df.drop('location', axis=1)
 adf=adf.rename(columns={"name":"animal_name"})
-adf=adf[['animal_name','species','capture_points']]
+adf=adf[['animal_name','species','capture_points','type']]
 fdf=pd.merge(df,adf,on='animal_name',how='left')
 fdf['rarity']=fdf['capture_points'].apply(lambda x:"Common" if x < 20 else "Rare" if x < 40 else "Exceptional")
 
-#st.write(fdf)
+
 #h: 328.32 x 420
 # Chrome, popups not allowed
 
 m = folium.Map(location=[54.546687,-3.881687],
-               zoom_start=3, control_scale=True)
+               zoom_start=3, control_scale=True,width=2,height=1)
 
 
 for i,row in fdf.iterrows():
@@ -37,13 +38,16 @@ for i,row in fdf.iterrows():
     if row['rarity'] == 'Common':
         folium.Marker(
             location=[row['latitude'],row['longitude']],
-            popup=popup, 
+            tags=[row['type'],row['rarity']],
+            popup=popup,
             icon=folium.Icon(color='green',icon='glyphicon glyphicon-pushpin'),
             c=row['animal_name']
+
         ).add_to(m)
     elif row['rarity'] == 'Rare':
         folium.Marker(
             location=[row['latitude'],row['longitude']],
+            tags=[row['type'],row['rarity']],
             popup=popup,
             icon=folium.Icon(color='blue',icon='glyphicon glyphicon-bookmark'),
             c=row['animal_name']
@@ -60,6 +64,7 @@ for i,row in fdf.iterrows():
     else:
         folium.Marker(
             location=[row['latitude'],row['longitude']],
+            tags=[row['type'],row['rarity']],
             popup=popup,
             icon=folium.Icon(color='red',icon='glyphicon glyphicon-star'),
             c=row['animal_name']
@@ -73,4 +78,7 @@ for i,row in fdf.iterrows():
             fill_opacity=0.6,
             opacity=1
         ).add_to(m)
-st_data = st_folium(m, width=700,returned_objects=[])
+
+TagFilterButton(list(fdf.type.unique())+list(fdf.rarity.unique())).add_to(m) 
+
+st_data = st_folium(m,width=700,returned_objects=[])
