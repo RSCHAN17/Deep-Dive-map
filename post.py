@@ -7,6 +7,14 @@ import tempfile
 import base64
 import os
 
+css = """
+<style>
+    div[data-testid="stForm"] {
+        background-color: #A5C89E !important;
+    }
+</style>
+"""
+
 
 
 uploaded_file = st.file_uploader(
@@ -44,19 +52,9 @@ if uploaded_file:
         submitted = st.form_submit_button("Submit")
         if submitted:
             url_post = "https://spotting-api.onrender.com/spottings/new"
-            post_data = {"date_time":now, "username":username, "animal_name":name, "animal_count":num, "location":location, "image_url":image_url}
+            post_data = {"date_time":now, "username":username, "animal_name":name, "animal_count":int(num), "location":location, "image_url":image_url}
             post_response = requests.post(url_post,json=post_data)
             post_response_json = post_response.json()
             st.write(post_response_json)
             st.write("Submitted spot!")
-    css="""
-    <style>
-        [data-testid="stForm"] {
-            background: #F5F1C4;
-            Color: #36656B;
-        }
-        [data-testid="stText_input] {
-            Color: #36656B;
-        }"
-    """
-    st.write(css,unsafe_allow_html=True)
+st.write(css,unsafe_allow_html=True)
