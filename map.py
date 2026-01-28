@@ -34,7 +34,7 @@ provider = TileProvider.from_qms("OpenTopoMap")
 
 f = folium.Figure(width=700, height=700)
 m = folium.Map(location=[54.546687,-3.881687],
-               zoom_start=5.5, control_scale=True).add_to(f)
+               zoom_start=5, control_scale=True).add_to(f)
 
 
 for i,row in fdf.iterrows():
