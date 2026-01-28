@@ -33,7 +33,7 @@ fdf['rarity']=fdf['capture_points'].apply(lambda x:"Common" if x < 20 else "Rare
 provider = TileProvider.from_qms("OpenTopoMap")
 
 f = folium.Figure(width=700, height=700)
-m = folium.Map(location=[53.755437,1.524313],
+m = folium.Map(location=[53.755437,3.524313],
                zoom_start=4.5, control_scale=True).add_to(f)
 
 
