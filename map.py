@@ -13,6 +13,7 @@ from xyzservices.lib import TileProvider
 req = requests.get('https://spotting-api.onrender.com/spottings')
 data = req.json()
 df=pd.DataFrame(data)
+st.write(df)
 adf=pd.read_csv('spotted-animals.csv')
 df['latitude']=df['location'].apply(lambda r: float(r.split(',')[0]))
 df['longitude']=df['location'].apply(lambda r: float(r.split(',')[1]))
