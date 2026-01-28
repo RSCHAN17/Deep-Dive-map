@@ -92,4 +92,4 @@ TagFilterButton(list(fdf.rarity.unique())).add_to(m)
 
 folium.TileLayer(provider).add_to(m)
 
-st_data = st_folium(m,width=600,height=1100,returned_objects=[])
+st_data = st_folium(m,width=600,height=1000,returned_objects=[])
