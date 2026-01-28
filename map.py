@@ -8,6 +8,7 @@ import folium
 from streamlit_folium import st_folium
 
 from folium.plugins import TagFilterButton
+from xyzservices.lib import TileProvider
 
 req = requests.get('https://spotting-api.onrender.com/spottings')
 data = req.json()
@@ -26,21 +27,26 @@ fdf['rarity']=fdf['capture_points'].apply(lambda x:"Common" if x < 20 else "Rare
 #h: 328.32 x 420
 # Chrome, popups not allowed
 
+
+
+provider = TileProvider.from_qms("OpenTopoMap")
+
+f = folium.Figure(width=700, height=700)
 m = folium.Map(location=[54.546687,-3.881687],
-               zoom_start=3, control_scale=True,width=2,height=1)
+               zoom_start=5.5, control_scale=True).add_to(f)
 
 
 for i,row in fdf.iterrows():
     lines = [f"Animal: {str(row['animal_name'])}",f"Rarity: {row['rarity']}",f"Count: {str(row['animal_count'])}", f"When: {row['date_time']}" ,f"Username: {str(row['username'])}",f"<img src='{str(row['image_url'])}' style='max-height:80px;'>" ]
     html_content = "<br>".join(lines)
     iframe = folium.IFrame(html=html_content)
-    popup = folium.Popup(iframe, min_width=300, max_width=300)
+    popup = folium.Popup(iframe, min_width=275, max_width=275)
     if row['rarity'] == 'Common':
         folium.Marker(
             location=[row['latitude'],row['longitude']],
             tags=[row['type'],row['rarity']],
             popup=popup,
-            icon=folium.Icon(color='green',icon='glyphicon glyphicon-pushpin'),
+            icon=folium.Icon(color='darkgreen',icon='glyphicon glyphicon-pushpin'),
             c=row['animal_name']
 
         ).add_to(m)
@@ -49,12 +55,13 @@ for i,row in fdf.iterrows():
             location=[row['latitude'],row['longitude']],
             tags=[row['type'],row['rarity']],
             popup=popup,
-            icon=folium.Icon(color='blue',icon='glyphicon glyphicon-bookmark'),
+            icon=folium.Icon(color='darkblue',icon='glyphicon glyphicon-bookmark'),
             c=row['animal_name']
         ).add_to(m)
         folium.Circle(
             location=[row['latitude'],row['longitude']],
             radius=250,
+            color='darkblue',
             stroke=False,
             fill=True,
             fill_opacity=0.6,
@@ -66,12 +73,12 @@ for i,row in fdf.iterrows():
             location=[row['latitude'],row['longitude']],
             tags=[row['type'],row['rarity']],
             popup=popup,
-            icon=folium.Icon(color='red',icon='glyphicon glyphicon-star'),
+            icon=folium.Icon(color='darkpurple',icon='glyphicon glyphicon-star'),
             c=row['animal_name']
         ).add_to(m)        
         folium.Circle(
             location=[row['latitude'],row['longitude']],
-            color='red',
+            color='purple',
             radius=500,
             stroke=False,
             fill=True,
@@ -79,6 +86,9 @@ for i,row in fdf.iterrows():
             opacity=1
         ).add_to(m)
 
-TagFilterButton(list(fdf.type.unique())+list(fdf.rarity.unique())).add_to(m) 
+TagFilterButton(list(adf.type.unique())).add_to(m) 
+TagFilterButton(list(fdf.rarity.unique())).add_to(m) 
+
+folium.TileLayer(provider).add_to(m)
 
 st_data = st_folium(m,width=700,returned_objects=[])
