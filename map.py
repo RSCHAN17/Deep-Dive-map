@@ -32,9 +32,9 @@ fdf['rarity']=fdf['capture_points'].apply(lambda x:"Common" if x < 20 else "Rare
 
 provider = TileProvider.from_qms("OpenTopoMap")
 
-f = folium.Figure(width=700, height=700)
+
 m = folium.Map(location=[53.055437,3.524313],
-               zoom_start=4.5, control_scale=True).add_to(f)
+               zoom_start=4.5, control_scale=True)
 
 
 for i,row in fdf.iterrows():
@@ -92,4 +92,4 @@ TagFilterButton(list(fdf.rarity.unique())).add_to(m)
 
 folium.TileLayer(provider).add_to(m)
 
-st_data = st_folium(m,width=700,returned_objects=[])
+st_data = st_folium(m,returned_objects=[])
