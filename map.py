@@ -54,6 +54,7 @@ for i,row in fdf.iterrows():
 
         <div style="
             display: flex;
+            justify-content: space-between;
             align-items: baseline;
             gap:8px;
             margin-bottom:6px;
@@ -66,7 +67,7 @@ for i,row in fdf.iterrows():
             </div>
 
             <div style="
-            font-size: 14px;
+            font-size: 12px;
         ">
             {row['rarity']}
         </div>
