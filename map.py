@@ -104,7 +104,7 @@ for i,row in fdf.iterrows():
 
     iframe = folium.IFrame(html=html_content)
 
-    popup = folium.Popup(iframe, height=,min_width=275, max_width=275)
+    popup = folium.Popup(iframe,max_height=275,min_height=275, height=275,min_width=275, max_width=275)
     if row['rarity'] == 'Common':
         folium.Marker(
             location=[row['latitude'],row['longitude']],
