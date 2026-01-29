@@ -38,7 +38,7 @@ m = folium.Map(location=[53.055437,3.524313],
 for i,row in fdf.iterrows():
 
     
-    lines = [f"Animal: {str(row['animal_name'])}",f"Rarity: {row['rarity']}",f"Count: {str(row['animal_count'])}", f"When: {row['date_time']}" ,f"Username: {str(row['username'])}",f"<img src='{str(row['image_url'])}' style='max-height:80px;'>" ]
+    lines = [f"Animal: {str(row['animal_name'])}",f"Rarity: {row['rarity']}",f"Count: {str(row['animal_count'])}", f"When: {row['date_time']}" ,f"Username: {str(row['username'])}",f"<img src='{str(row['image_url'])}'>" ]
     clean_date = str(row['date_time'])[:-9]
     html_content = f"""
     <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto+Slab:wght@100..900&display=swap"
@@ -94,7 +94,7 @@ for i,row in fdf.iterrows():
     <div style="text-align: center;">
         <img src="{row['image_url']}"
             style="
-                width:100px;
+                width:80px;
                 border-radius:15px;
                 ">
             </div>
@@ -104,7 +104,7 @@ for i,row in fdf.iterrows():
 
     iframe = folium.IFrame(html=html_content)
 
-    popup = folium.Popup(iframe, height=600,min_width=275, max_width=275)
+    popup = folium.Popup(iframe, height=,min_width=275, max_width=275)
     if row['rarity'] == 'Common':
         folium.Marker(
             location=[row['latitude'],row['longitude']],
