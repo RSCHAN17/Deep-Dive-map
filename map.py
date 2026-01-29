@@ -37,13 +37,19 @@ m = folium.Map(location=[53.055437,3.524313],
 
 for i,row in fdf.iterrows():
 
+    
     lines = [f"Animal: {str(row['animal_name'])}",f"Rarity: {row['rarity']}",f"Count: {str(row['animal_count'])}", f"When: {row['date_time']}" ,f"Username: {str(row['username'])}",f"<img src='{str(row['image_url'])}' style='max-height:80px;'>" ]
+    clean_date = str(row['date_time'])[:-9]
     html_content = f"""
     <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto+Slab:wght@100..900&display=swap"
         rel="stylesheet">
     <div style="
         font-family: 'Roboto Slab', sans-serif;
         width:220px;
+        background-color: #A5C89E;
+        padding: 10px;
+        border-radius: 12px;
+        color: #36656B;
     ">
 
         <div style="
@@ -67,12 +73,21 @@ for i,row in fdf.iterrows():
     </div>
 
     <div style="
+        display: flex;
+        justify-content: space-between;
         font-size: 12px;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
     ">
         <div>Count: {row['animal_count']}</div>
-        <div>{row['date_time']}</div>
-        <div>{row['username']}</div>
+        <div>{clean_date}</div>
+        
+    </div>
+
+    <div style="
+        font-size:12px;
+        margin-bottom: 8px;
+    ">
+        Spotted by: {row['username']}
     </div>
 
     <div style="text-align: center;">
