@@ -31,7 +31,7 @@ for j,line in fdf.iterrows():
     elif line['rarity'] == 'Exceptional':
         line['latitude'] +=  2 * (2*(random.random()) - 1) * 0.00158
         line['longitude'] += 2 * (2*(random.random()) - 1) * 0.00158
-provider = TileProvider.from_qms("OpenTopoMap")
+
 m = folium.Map(location=[53.055437,3.524313],
                zoom_start=4.5, control_scale=True)
 
@@ -88,6 +88,6 @@ for i,row in fdf.iterrows():
 TagFilterButton(list(adf.type.unique())).add_to(m) 
 TagFilterButton(list(fdf.rarity.unique())).add_to(m) 
 
-folium.TileLayer(provider).add_to(m)
+
 
 st_data = st_folium(m,width=600,height=800,returned_objects=[])
