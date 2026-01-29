@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
+import random
 import datetime
 import requests
 import json
@@ -23,19 +24,16 @@ adf=adf.rename(columns={"name":"animal_name"})
 adf=adf[['animal_name','species','capture_points','type']]
 fdf=pd.merge(df,adf,on='animal_name',how='left')
 fdf['rarity']=fdf['capture_points'].apply(lambda x:"Common" if x < 20 else "Rare" if x < 40 else "Exceptional")
-
-
-#h: 328.32 x 420
-# Chrome, popups not allowed
-
-
-
+for j,line in fdf.iterrows():
+    if line['rarity'] == 'Rare':
+        line['latitude'] +=  (2*(random.random()) - 1) * 0.00158
+        line['longitude'] += (2*(random.random()) - 1) * 0.00158
+    elif line['rarity'] == 'Exceptional':
+        line['latitude'] +=  2 * (2*(random.random()) - 1) * 0.00158
+        line['longitude'] += 2 * (2*(random.random()) - 1) * 0.00158
 provider = TileProvider.from_qms("OpenTopoMap")
-
-
 m = folium.Map(location=[53.055437,3.524313],
                zoom_start=4.5, control_scale=True)
-
 
 for i,row in fdf.iterrows():
     lines = [f"Animal: {str(row['animal_name'])}",f"Rarity: {row['rarity']}",f"Count: {str(row['animal_count'])}", f"When: {row['date_time']}" ,f"Username: {str(row['username'])}",f"<img src='{str(row['image_url'])}' style='max-height:80px;'>" ]
