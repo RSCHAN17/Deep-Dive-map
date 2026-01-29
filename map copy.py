@@ -38,54 +38,7 @@ m = folium.Map(location=[53.055437,3.524313],
 for i,row in fdf.iterrows():
 
     lines = [f"Animal: {str(row['animal_name'])}",f"Rarity: {row['rarity']}",f"Count: {str(row['animal_count'])}", f"When: {row['date_time']}" ,f"Username: {str(row['username'])}",f"<img src='{str(row['image_url'])}' style='max-height:80px;'>" ]
-    html_content = f"""
-    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto+Slab:wght@100..900&display=swap"
-        rel="stylesheet">
-    <div style="
-        font-family: 'Roboto Slab', sans-serif;
-        width:220px;
-    ">
-
-        <div style="
-            display: flex;
-            align-items: baseline;
-            gap:8px;
-            margin-bottom:6px;
-        ">
-            <div style="
-                font-family: 'Jockey One', serif;
-                font-size: 18px;
-            ">
-                {row['animal_name']}
-            </div>
-
-            <div style="
-            font-size: 14px;
-        ">
-            {row['rarity']}
-        </div>
-    </div>
-
-    <div style="
-        font-size: 12px;
-        margin-bottom: 8px;
-    ">
-        <div>Count: {row['animal_count']}</div>
-        <div>{row['date_time']}</div>
-        <div>{row['username']}</div>
-    </div>
-
-    <div style="text-align: center;">
-        <img src="{row['image_url']}"
-            style="
-                width:100px;
-                border-radius:15px;
-                ">
-            </div>
-
-        </div>
-        """
-
+    html_content = "<br>".join(lines)
     iframe = folium.IFrame(html=html_content)
 
     popup = folium.Popup(iframe, min_width=275, max_width=275)
